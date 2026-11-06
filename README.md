@@ -37,8 +37,6 @@ MusicDB stores albums, tracks, artists, and genres that users save to their coll
 
 ![MusicDB entity relationship diagram](docs/erd.png)
 
-The original hand-drawn conceptual and physical models can be added to `docs/` as design history.
-
 ## Design highlights
 
 - **Many-to-many modeling:** albums and artists are linked through the `AlbumArtists` junction table, since an album can have several artists and an artist can release many albums.
